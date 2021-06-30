@@ -21,4 +21,12 @@ public UserStory100(String word, int amount){
     public void setAmount(int amount) {
         this.amount = amount;
     }
+
+    @Override
+    public String toString() {
+        return "UserStory100{" +
+                "word='" + word + '\'' +
+                ", amount=" + amount +
+                '}';
+    }
 }
